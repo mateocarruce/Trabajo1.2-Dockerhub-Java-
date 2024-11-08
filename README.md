@@ -18,8 +18,8 @@ To run this project on your system using Docker:
 
 1. **Clone the repository** (optional if hosted on GitHub):
    ```bash
-   git clone <REPOSITORY_URL>
-   cd <DIRECTORY_NAME>
+   git clone https://github.com/mateocarruce/Trabajo1.2-Dockerhub-Java-.git
+   cd Trabajo1.2-Dockerhub-Java-
 
 2. **Build the Docker image:** 
 docker build -t mateocarr/tarea1.2mc_java:1.0 .
