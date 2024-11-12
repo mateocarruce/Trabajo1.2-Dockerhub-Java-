@@ -21,11 +21,18 @@ To run this project on your system using Docker:
    git clone https://github.com/mateocarruce/Trabajo1.2-Dockerhub-Java-.git
    cd Trabajo1.2-Dockerhub-Java-
 
-2. **Build the Docker image:** 
-docker build -t mateocarr/tarea1.2mc_java:1.0 .
+### Docker Hub Launch Manual
+
+#### 1. Download the Image
+##### To download the image from Docker Hub, run:
+```bash
+docker pull -t mateocarr/tarea1.2mc_java.
+```
 
 3. **Run the container:** 
-docker run mateocarr/tarea1.2mc_java:1.0
+```bash
+docker run mateocarr/tarea1.2mc_java:latest
+```
 
 # How to Use the Project
 The purpose of this application is to demonstrate the use of Docker to build and run a Java application. Running it in Docker requires no additional setup, making it ideal for learning about deploying Java applications in containers.
